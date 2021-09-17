@@ -1,0 +1,28 @@
+{
+  "name": "express_authentication",
+  "version": "0.1.0",
+  "description": "A sample about user authentication with Express",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --inspect",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "authentication",
+    "javascript",
+    "session",
+    "jwt"
+  ],
+  "author": "Salva Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
